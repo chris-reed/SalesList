@@ -1,0 +1,18 @@
+Create an array containing the following information:
+
+| name | phone | Lifetime Sales | YTD Sales
+| alex | 111-111-1111 | 10000 | 1200
+| casey | 222-222-2222 | 25000 | 1100
+| steve | 333-333-3333 | 15000 | 1500
+
+Write a PHP script that prints out a numbered list of people to call. For the customer with the highest lifetime sales, add a comment of "-- Highest Lifetime Sales --" to the end. For the customer with theh highest YTD Sales, add a comment of "-- Highest YTD Sales --" to the end.
+
+Please have your code use two functions for reformatting:
+capitalizeName() will make the first character of the name uppercase
+formatPhone() will change the format of the phone number from zzz-zzz-zzz to (zzz) zzz-zzzz
+
+Successful output would look like this
+
+1. Call Alex at (111) 111-1111
+2. Call Casey at (222) 222-2222 -- Highest Lifetime Sales --
+3. Call Steve at (333) 333-3333 -- Highest YTD Sales -- 
